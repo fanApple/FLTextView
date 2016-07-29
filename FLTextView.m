@@ -72,7 +72,6 @@
 }
 
 - (void)layoutUI {
-    [self setNeedsDisplay];
     _placeholderLabel.hidden = [self.text isEqualToString:@""] ? NO:YES;
 }
 
